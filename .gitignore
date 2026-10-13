@@ -1,0 +1,37 @@
+# .NET / WPF buildbestanden
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# JetBrains Rider
+.idea/
+_ReSharper*/
+*.DotSettings.user
+
+# NuGet
+**/packages/*
+!**/packages/build/
+*.nupkg
+*.snupkg
+
+# Testresultaten en coverage
+[Tt]est[Rr]esults/
+coverage/
+*.coverage
+*.coveragexml
+
+# Lokale publicatie-instellingen
+*.pubxml
+*.publishsettings
+
+# Besturingssysteem
+Thumbs.db
+Desktop.ini
+.DS_Store
